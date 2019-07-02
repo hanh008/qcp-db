@@ -1,0 +1,37 @@
+.title {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 3%;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    font-weight: bold;
+}
+
+button {
+    margin: auto;
+    background-color: rgb(43, 190, 183);
+}
+
+.main {
+    background-color: rgb(204, 31, 31);
+}   
+
+.box {
+    padding: 0px 3px;
+    width: 100%;
+    font-size: 15px;
+}
+
+body {
+    background-color: rgb(238, 233, 233);
+}
+
+html {
+    background-color: rgb(238, 233, 233);
+}

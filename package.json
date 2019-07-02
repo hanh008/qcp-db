@@ -30,6 +30,8 @@
   },
   "dependencies": {
     "express": "^4.16.4",
+    "knex": "^0.18.0",
+    "react-router-dom": "^5.0.1",
     "superagent": "^5.0.2"
   },
   "devDependencies": {
