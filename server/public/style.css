@@ -15,23 +15,55 @@ form {
 
 button {
     margin: auto;
-    background-color: rgb(43, 190, 183);
+    border-width: 1px;
+    color: #363636;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: calc(0.375em - 1px);
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    padding-top: calc(0.375em - 1px);
+    text-align: center;
+    white-space: nowrap;
+    /* margin: auto; */
+    font-size: 15px;
+    
 }
 
 .main {
-    background-color: rgb(204, 31, 31);
+    background-color: rgb(43, 190, 183);
 }   
 
-.box {
+.smallbox {
     padding: 0px 3px;
     width: 100%;
     font-size: 15px;
 }
 
-body {
-    background-color: rgb(238, 233, 233);
+.largebox {
+    padding: 0px 3px;
+    width: 100%;
+    font-size: 15px;
+    height: 100px;
+    
 }
 
-html {
-    background-color: rgb(238, 233, 233);
+
+.button {
+    border-color: #dbdbdb;
+    border-width: 1px;
+    color: #363636;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: calc(0.375em - 1px);
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    padding-top: calc(0.375em - 1px);
+    text-align: center;
+    white-space: nowrap;
+    margin: auto;
+    border: 1px outset blue;
+    background-color: lightBlue;
+    border-radius: 0px;
+    height: 43px;
 }

@@ -1,21 +1,22 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Edit = () => {
+const Test = () => {
 	return (
 		<React.Fragment>
 			<div class="container">
-				<h1 class="title">View/Edit QCP</h1>
-				<form>
+				<h1 class="title">Add Test</h1>
+                <form>
 					<div>
-						<label htmlFor='text:'>QCP Number:</label><input className='smallbox' type='text' />
+						<label htmlFor='text:'></label><input className='smallbox' type='text' />
 					</div>
 					<br />
 					<br />
 					<div>
-						<input type='submit' value='View/Edit QCP' className='button column is-10 is-offset-1' />
+						<input type='submit' value='Submit' className='button column is-10 is-offset-1' />
 					</div>
 				</form>
+				<h1 class='title'>Tests</h1>
 				<br />
 				<br />
 				<div>
@@ -26,4 +27,4 @@ const Edit = () => {
     )
 }
 
-export default Edit
+export default Test
